@@ -1,0 +1,442 @@
+{
+  "Como": {
+    "city": "Como",
+    "latitude": 45.80819,
+    "longitude": 9.0832
+  },
+  "Turin": {
+    "city": "Turin",
+    "latitude": 45.07049,
+    "longitude": 7.68682
+  },
+  "Almer\u00eda": {
+    "city": "Almer\u00eda",
+    "latitude": 36.83814,
+    "longitude": -2.45974
+  },
+  "Seville": {
+    "city": "Seville",
+    "latitude": 37.38283,
+    "longitude": -5.97317
+  },
+  "Manchester": {
+    "city": "Manchester",
+    "latitude": 53.48095,
+    "longitude": -2.23743
+  },
+  "Cremona": {
+    "city": "Cremona",
+    "latitude": 45.13325,
+    "longitude": 10.02129
+  },
+  "London": {
+    "city": "London",
+    "latitude": 51.50853,
+    "longitude": -0.12574
+  },
+  "Vitoria-Gasteiz": {
+    "city": "Vitoria-Gasteiz",
+    "latitude": 42.84998,
+    "longitude": -2.67268
+  },
+  "Sheffield": {
+    "city": "Sheffield",
+    "latitude": 53.38297,
+    "longitude": -1.4659
+  },
+  "Benevento": {
+    "city": "Benevento",
+    "latitude": 41.1307,
+    "longitude": 14.77816
+  },
+  "Birmingham": {
+    "city": "Birmingham",
+    "latitude": 52.48142,
+    "longitude": -1.89983
+  },
+  "Cologne": {
+    "city": "Cologne",
+    "latitude": 50.93333,
+    "longitude": 6.95
+  },
+  "Southampton": {
+    "city": "Southampton",
+    "latitude": 50.90395,
+    "longitude": -1.40428
+  },
+  "Luton": {
+    "city": "Luton",
+    "latitude": 51.87967,
+    "longitude": -0.41748
+  },
+  "Crotone": {
+    "city": "Crotone",
+    "latitude": 39.08077,
+    "longitude": 17.12764
+  },
+  "Florence": {
+    "city": "Florence",
+    "latitude": 43.77925,
+    "longitude": 11.24626
+  },
+  "Salerno": {
+    "city": "Salerno",
+    "latitude": 40.67545,
+    "longitude": 14.79328
+  },
+  "Mainz": {
+    "city": "Mainz",
+    "latitude": 49.98185,
+    "longitude": 8.28008
+  },
+  "Kiel": {
+    "city": "Kiel",
+    "latitude": 54.32133,
+    "longitude": 10.13489
+  },
+  "West Bromwich": {
+    "city": "West Bromwich",
+    "latitude": 52.51868,
+    "longitude": -1.9945
+  },
+  "Bergamo": {
+    "city": "Bergamo",
+    "latitude": 45.69601,
+    "longitude": 9.66721
+  },
+  "Heidenheim": {
+    "city": "Heidenheim",
+    "latitude": 48.67798,
+    "longitude": 10.15162
+  },
+  "Wolverhampton": {
+    "city": "Wolverhampton",
+    "latitude": 52.58547,
+    "longitude": -2.12296
+  },
+  "Bochum": {
+    "city": "Bochum",
+    "latitude": 51.48165,
+    "longitude": 7.21648
+  },
+  "F\u00fcrth": {
+    "city": "F\u00fcrth",
+    "latitude": 49.47593,
+    "longitude": 10.98856
+  },
+  "M\u00f6nchengladbach": {
+    "city": "M\u00f6nchengladbach",
+    "latitude": 51.18539,
+    "longitude": 6.44172
+  },
+  "Las Palmas": {
+    "city": "Las Palmas",
+    "latitude": 28.10178,
+    "longitude": -15.41573
+  },
+  "Bielefeld": {
+    "city": "Bielefeld",
+    "latitude": 52.03333,
+    "longitude": 8.53333
+  },
+  "Cagliari": {
+    "city": "Cagliari",
+    "latitude": 39.23054,
+    "longitude": 9.11917
+  },
+  "Augsburg": {
+    "city": "Augsburg",
+    "latitude": 48.37154,
+    "longitude": 10.89851
+  },
+  "Genoa": {
+    "city": "Genoa",
+    "latitude": 44.40478,
+    "longitude": 8.94439
+  },
+  "Monza": {
+    "city": "Monza",
+    "latitude": 45.58005,
+    "longitude": 9.27246
+  },
+  "Venice": {
+    "city": "Venice",
+    "latitude": 45.4408,
+    "longitude": 12.3155
+  },
+  "Lecce": {
+    "city": "Lecce",
+    "latitude": 40.35481,
+    "longitude": 18.17244
+  },
+  "Empoli": {
+    "city": "Empoli",
+    "latitude": 43.71795,
+    "longitude": 10.94758
+  },
+  "Madrid": {
+    "city": "Madrid",
+    "latitude": 40.4165,
+    "longitude": -3.70256
+  },
+  "Frankfurt": {
+    "city": "Frankfurt",
+    "latitude": 50.11552,
+    "longitude": 8.68417
+  },
+  "Nottingham": {
+    "city": "Nottingham",
+    "latitude": 52.9536,
+    "longitude": -1.15047
+  },
+  "Brighton": {
+    "city": "Brighton",
+    "latitude": 50.82838,
+    "longitude": -0.13947
+  },
+  "Leverkusen": {
+    "city": "Leverkusen",
+    "latitude": 51.0303,
+    "longitude": 6.98432
+  },
+  "Barcelona": {
+    "city": "Barcelona",
+    "latitude": 41.38879,
+    "longitude": 2.15899
+  },
+  "Watford": {
+    "city": "Watford",
+    "latitude": 51.65531,
+    "longitude": -0.39602
+  },
+  "Munich": {
+    "city": "Munich",
+    "latitude": 48.13743,
+    "longitude": 11.57549
+  },
+  "Sassuolo": {
+    "city": "Sassuolo",
+    "latitude": 44.5432,
+    "longitude": 10.7848
+  },
+  "Wolfsburg": {
+    "city": "Wolfsburg",
+    "latitude": 52.42452,
+    "longitude": 10.7815
+  },
+  "Villarreal": {
+    "city": "Villarreal",
+    "latitude": 39.93778,
+    "longitude": -0.10139
+  },
+  "Pamplona": {
+    "city": "Pamplona",
+    "latitude": 42.81687,
+    "longitude": -1.64323
+  },
+  "Hamburg": {
+    "city": "Hamburg",
+    "latitude": 53.55073,
+    "longitude": 9.99302
+  },
+  "Verona": {
+    "city": "Verona",
+    "latitude": 45.43854,
+    "longitude": 10.9938
+  },
+  "Frosinone": {
+    "city": "Frosinone",
+    "latitude": 41.63976,
+    "longitude": 13.34109
+  },
+  "Stuttgart": {
+    "city": "Stuttgart",
+    "latitude": 48.78232,
+    "longitude": 9.17702
+  },
+  "La Spezia": {
+    "city": "La Spezia",
+    "latitude": 44.103,
+    "longitude": 9.82375
+  },
+  "Girona": {
+    "city": "Girona",
+    "latitude": 41.98311,
+    "longitude": 2.82493
+  },
+  "Berlin": {
+    "city": "Berlin",
+    "latitude": 52.52437,
+    "longitude": 13.41053
+  },
+  "Palma de Mallorca": {
+    "city": "Palma de Mallorca",
+    "latitude": 39.5696,
+    "longitude": 2.6502
+  },
+  "Newcastle upon Tyne": {
+    "city": "Newcastle upon Tyne",
+    "latitude": 54.97328,
+    "longitude": -1.61396
+  },
+  "Valladolid": {
+    "city": "Valladolid",
+    "latitude": 41.65541,
+    "longitude": -4.72353
+  },
+  "Huesca": {
+    "city": "Huesca",
+    "latitude": 42.13615,
+    "longitude": -0.4087
+  },
+  "Getafe": {
+    "city": "Getafe",
+    "latitude": 40.30571,
+    "longitude": -3.73295
+  },
+  "Burnley": {
+    "city": "Burnley",
+    "latitude": 53.8,
+    "longitude": -2.23333
+  },
+  "Freiburg": {
+    "city": "Freiburg",
+    "latitude": 47.9959,
+    "longitude": 7.85222
+  },
+  "Bournemouth": {
+    "city": "Bournemouth",
+    "latitude": 50.72048,
+    "longitude": -1.8795
+  },
+  "Legan\u00e9s": {
+    "city": "Legan\u00e9s",
+    "latitude": 40.32718,
+    "longitude": -3.7635
+  },
+  "Milan": {
+    "city": "Milan",
+    "latitude": 45.46427,
+    "longitude": 9.18951
+  },
+  "Naples": {
+    "city": "Naples",
+    "latitude": 40.85216,
+    "longitude": 14.26811
+  },
+  "Liverpool": {
+    "city": "Liverpool",
+    "latitude": 53.41058,
+    "longitude": -2.97794
+  },
+  "Vigo": {
+    "city": "Vigo",
+    "latitude": 42.23282,
+    "longitude": -8.72264
+  },
+  "Norwich": {
+    "city": "Norwich",
+    "latitude": 52.62783,
+    "longitude": 1.29834
+  },
+  "Valencia": {
+    "city": "Valencia",
+    "latitude": 39.47391,
+    "longitude": -0.37966
+  },
+  "Bologna": {
+    "city": "Bologna",
+    "latitude": 44.49381,
+    "longitude": 11.33875
+  },
+  "Rome": {
+    "city": "Rome",
+    "latitude": 41.89193,
+    "longitude": 12.51133
+  },
+  "Bremen": {
+    "city": "Bremen",
+    "latitude": 53.07582,
+    "longitude": 8.80717
+  },
+  "Bilbao": {
+    "city": "Bilbao",
+    "latitude": 43.26271,
+    "longitude": -2.92528
+  },
+  "Dortmund": {
+    "city": "Dortmund",
+    "latitude": 51.51494,
+    "longitude": 7.466
+  },
+  "Leeds": {
+    "city": "Leeds",
+    "latitude": 53.79648,
+    "longitude": -1.54785
+  },
+  "Eibar": {
+    "city": "Eibar",
+    "latitude": 43.18493,
+    "longitude": -2.47158
+  },
+  "Granada": {
+    "city": "Granada",
+    "latitude": 37.18817,
+    "longitude": -3.60667
+  },
+  "Elche": {
+    "city": "Elche",
+    "latitude": 38.26218,
+    "longitude": -0.70107
+  },
+  "Gelsenkirchen": {
+    "city": "Gelsenkirchen",
+    "latitude": 51.50508,
+    "longitude": 7.09654
+  },
+  "Ipswich": {
+    "city": "Ipswich",
+    "latitude": 52.05917,
+    "longitude": 1.15545
+  },
+  "San Sebasti\u00e1n": {
+    "city": "San Sebasti\u00e1n",
+    "latitude": 43.3183,
+    "longitude": -1.9812
+  },
+  "Darmstadt": {
+    "city": "Darmstadt",
+    "latitude": 49.87167,
+    "longitude": 8.65027
+  },
+  "Sinsheim": {
+    "city": "Sinsheim",
+    "latitude": 49.2529,
+    "longitude": 8.87867
+  },
+  "Parma": {
+    "city": "Parma",
+    "latitude": 44.79935,
+    "longitude": 10.32618
+  },
+  "Udine": {
+    "city": "Udine",
+    "latitude": 46.0693,
+    "longitude": 13.23715
+  },
+  "Leipzig": {
+    "city": "Leipzig",
+    "latitude": 51.33962,
+    "longitude": 12.37129
+  },
+  "Leicester": {
+    "city": "Leicester",
+    "latitude": 52.6386,
+    "longitude": -1.13169
+  },
+  "C\u00e1diz": {
+    "city": "C\u00e1diz",
+    "latitude": 36.52672,
+    "longitude": -6.2891
+  }
+}

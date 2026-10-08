@@ -1,0 +1,21 @@
+# Secrets
+.env
+ 
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+ 
+# Astro / Airflow local files
+.astro/
+airflow_settings.yaml
+airflow.cfg
+airflow.db
+airflow-webserver.pid
+webserver_config.py
+logs/
+ 
+# OS / editor
+.DS_Store
+.vscode/
