@@ -8,7 +8,7 @@ __pycache__/
 venv/
  
 # Astro / Airflow local files
-.astro/
+.astro/standalone/
 airflow_settings.yaml
 airflow.cfg
 airflow.db
