@@ -2,7 +2,18 @@
 
 An end-to-end data engineering project that asks: **can weather affect a football match?**
 
-An Apache Airflow (Astronomer) pipeline collects match results and historical weather for four European leagues, joins them, and loads them into PostgreSQL for analysis in Power BI.
+An Apache Airflow (Astronomer) pipeline collects match results and historical weather for four European leagues, joins them, and loads them into PostgreSQL. The results are explored in a Power BI dashboard.
+
+## Dashboard
+
+[View the live dashboard](https://app.powerbi.com/view?r=eyJrIjoiY2Y0YmQ4ZjgtMGU4Zi00YWYzLThmYTEtNjg5ODljOWVmZTRhIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9&pageName=05a7762eccbf43334fdc)
+
+![Overview](dashboard/overview.png)
+![Key insights](dashboard/key_insights.png)
+![Weather and match outcomes](dashboard/weather_match_outcomes.png)
+![Weather severity and goals](dashboard/weather_severity_goals.png)
+
+The Power BI file is `dashboard/visual.pbix`. It reads the `football_weather` table.
 
 ## Data
 
@@ -21,7 +32,7 @@ extract_matches -> extract_geocoding -> extract_weather -> transform -> load
 ```
 
 1. **extract_matches**: downloads season JSON files from openfootball (skips files already downloaded)
-2. **extract_geocoding**: maps each team to its city (`dags/team_city_map.py`) and geocodes the cities
+2. **extract_geocoding**: maps each team to its home city (`dags/team_city_map.py`) and geocodes the cities
 3. **extract_weather**: one archive API call per city for its full date range, filtered to match days
 4. **transform**: flattens matches, joins weather by (city, date), adds a readable weather label
 5. **load**: creates and fills the `football_weather` table in PostgreSQL (about 7,200 rows)
@@ -32,12 +43,19 @@ extract_matches -> extract_geocoding -> extract_weather -> transform -> load
 dags/
   football_dag.py          # Airflow DAG (TaskFlow API)
   team_city_map.py         # team -> home city
-  football/                # extract_*, transform, load modules
-include/football/          # generated data (git-ignored except geocoding)
+  football/                # extract_*, transform and load modules
+include/football/
+  raw/                     # raw match files from openfootball
+  geocoding/               # city coordinates
+  weather/raw/             # raw daily weather, one file per city
+  transformed/             # final joined data (JSON)
+dashboard/                 # Power BI report and screenshots
+.env.example               # template for database settings
 ```
 
+The generated data files are included in the repo, so you can browse the real output without running anything. For example, open `include/football/transformed/transformed_data.json`.
 
-Final table `football_weather`:
+## Output table: `football_weather`
 
 | Column | Type | Description |
 |---|---|---|
@@ -55,7 +73,7 @@ Final table `football_weather`:
 
 ## Run it locally
 
-Requirements: Docker, [Astro CLI](https://www.astronomer.io/docs/astro/cli/install-cli), and a PostgreSQL database.
+Requirements: Docker, the [Astro CLI](https://www.astronomer.io/docs/astro/cli/install-cli), and a PostgreSQL database.
 
 1. Start Postgres, for example:
    ```
@@ -64,18 +82,16 @@ Requirements: Docker, [Astro CLI](https://www.astronomer.io/docs/astro/cli/insta
 2. Copy `.env.example` to `.env` and set your password.
 3. Run `astro dev start`, open http://localhost:8080 and trigger `football_dag`.
 
-The first weather run can hit Open-Meteo rate limits (HTTP 429). Cities already downloaded are cached, so re-running the task continues where it stopped.
+Notes:
+- `POSTGRES_HOST=host.docker.internal` works on Windows and Mac. On Linux you may need to use your machine's IP address.
+- The first weather run can hit Open-Meteo rate limits (HTTP 429). Cities already downloaded are cached, so re-running the task continues where it stopped.
 
 ## Limitations
 
 - Weather is **daily**, not at kick-off time, because the match data has no kick-off times.
-- Weather is taken at the home team's city; teams sharing a city share its weather.
+- Weather is taken at the home team's city, so teams sharing a city share the same weather.
 - This shows association, not proof of cause.
-- Paths are relative to the Airflow working directory, so run it through `astro dev`.
-
-## Dashboard
-
-`dashboard/visual.pbix` is the Power BI report that reads the `football_weather` table.
+- File paths are relative to the Airflow working directory, so run it through `astro dev`.
 
 ## Credits
 
