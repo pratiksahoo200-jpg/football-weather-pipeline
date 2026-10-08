@@ -9,9 +9,9 @@ An Apache Airflow (Astronomer) pipeline collects match results and historical we
 [View the live dashboard](https://app.powerbi.com/view?r=eyJrIjoiY2Y0YmQ4ZjgtMGU4Zi00YWYzLThmYTEtNjg5ODljOWVmZTRhIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9&pageName=05a7762eccbf43334fdc)
 
 ![Overview](dashboard/overview.png)
-![Key insights](dashboard/key_insights.png)
 ![Weather and match outcomes](dashboard/weather_match_outcomes.png)
 ![Weather severity and goals](dashboard/weather_severity_goals.png)
+![Key insights](dashboard/key_insights.png)
 
 The Power BI file is `dashboard/visual.pbix`. It reads the `football_weather` table.
 
